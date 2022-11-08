@@ -27,4 +27,4 @@ for port in range(80,443): #This code will show the ranges of the ports, will be
         print("port: " + str(port) + " is closed") # I got this code from(Herbertech on youtube under "build a basic port scanner in python") This code will display port number plus statement saying the port is closed.
     n.close() #The code will close the socket. 
 
-print(sys.version) #The code will display version of the python I am running.
+print(sys.version) #The code will display version of the python I am running, plus addittional informations.
