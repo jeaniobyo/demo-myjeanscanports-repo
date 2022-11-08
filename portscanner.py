@@ -8,11 +8,11 @@ import socket #This will import the socket library and its objects such as AF_NE
 from datetime import datetime #This will import the datetime modules and with it classes such as time and date. 
 
 
-F = Figlet(font='thick')  #The code to design a fancy text display.
+F = Figlet(font='slant')  #The code to design a fancy text display.
 print(F.renderText("PORT SCANNER")) #The code to display the fanncy text named port scanner.
 
 Today = datetime.now() #The code show the current time and date.
-print("Scanning Host IP Target:", "10.10.90.16")    #This code will show the IP address of the target host I am scanning on the top.
+print("Scanning Host IP Target:", "10.10.64.115")    #This code will show the IP address of the target host I am scanning on the top.
 print("Scanning started at:", Today)                #This code will show the time and date the scanning took place.
 
 print("-" * 70) #This code will show the bottom dots border line between scanning time and scanning ports.
